@@ -5,9 +5,9 @@ int main()
 {
     int arr[5]={1,2,3,4,5};
     int temp;int size=sizeof(arr)/sizeof(arr[0]);
-    temp=arr[size];
+    temp=arr[size-1];
     for(int i =size-1;i>0;i--){
-        arr[size]=arr[size-1];
+        arr[i]=arr[i-1];
     }
     arr[0]=temp;
     for (int i=0;i<size;i++){
@@ -16,4 +16,4 @@ int main()
 
     return 0;
 }
-// Incomplete needs to be debugged
+
