@@ -47,3 +47,4 @@ printf("\n%d", x);
     return 0;
 };
   
+![image](https://github.com/ds-ecode/learning_Cpp/assets/158248079/e89fc183-b515-413d-823e-82f10397ffc6)
